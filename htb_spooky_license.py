@@ -2,7 +2,7 @@ import angr
 import claripy
 import sys
 
-path_to_binary = "D:/Cybersecurity Stuff/HackingUnixBinariesStuff/Misc/spookylicence"
+path_to_binary = "<path to binary>"
 proj = angr.Project(path_to_binary, load_options={'auto_load_libs':False})
 
 # Define the entry state with the input argument
